@@ -36,6 +36,7 @@ deps:
 	mkdir $(LIBGPG-ERROR_DIR)
 	curl -sLo $(LIBGPG-ERROR_TAR) $(LIBGPG-ERROR_URL)
 	tar -x -C $(LIBGPG-ERROR_DIR) -f $(LIBGPG-ERROR_TAR)
+	rm -rf $(LIBGPG-ERROR_DIR)/usr/lib/libgpg-error.la
 
 build: submodule deps
 	rm -rf $(BUILD_DIR)
