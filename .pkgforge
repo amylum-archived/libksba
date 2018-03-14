@@ -5,8 +5,8 @@ licenses 'COPYING.GPLv3'
 
 deps(
   'libgpg-error': {
-    version: '1.27-1',
-    checksum: '7ae57f06296bf6ef98fc450f7ef7d1a47753d429c1cdc440045a03ed108d58de'
+    version: '1.28-1',
+    checksum: '55eec88e8ef7164bc4c2a851fb1f8128f3fe0b0a5e464db77725affb19191f6e'
   }
 )
 
